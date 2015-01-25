@@ -1,0 +1,62 @@
+<style>
+	#pinID {
+		width: 180px;
+		height: 50px;
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 3px;
+		margin: 0 0 0 15px;
+		background-color: white;
+		color: black;
+		font-family: sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		text-decoration: none;
+	}
+	#pinID:before {
+		width: 0; 
+		height: 0; 
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent; 
+		
+		border-right:10px solid black;
+	}
+	.rating {
+	  unicode-bidi: bidi-override;
+	  direction: rtl;
+	}
+	.rating > span {
+	  display: inline-block;
+	  position: relative;
+	  width: 1.1em;
+	}
+	.rating > span:hover:before,
+	.r----ating > span:hover ~ span:before {
+	   content: "\2605";
+	   position: absolute;
+	}
+	.on {
+		display: inline;
+	}
+	.off {
+		display: none;
+	}
+</style>
+<div id="pinID">
+	<img src="images/paris.">
+	<div class="rating">
+		<span>☆</span><span>☆</span><span>☆</span><span>☆</span><!-- <span>☆</span> -->
+	</div>
+	<div class="activity">
+		<span id="pinActivity">HELP!</span>
+	</div>
+	<div>
+		<a class="btn btn-sm btn-success" href="#">
+		  <i class="fa fa-1x pull-left"></i> <span class="on">Send</span><span class="off">Accept</span></a>
+	</div>
+
+</div>
+<script>
+	var data = localStorage.getItem("pinData");
+	data = JSON.unstringify(data); 
+</script>
