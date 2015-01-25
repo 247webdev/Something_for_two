@@ -1,25 +1,14 @@
-<style>
-	#pinID {
-		width: 180px;
-		height: 50px;
-		border-radius: 10px;
-		border: 1px solid black;
-		padding: 3px;
-		margin: 0 0 0 15px;
-		background-color: white;
-		color: black;
-		font-family: sans-serif;
-		font-weight: normal;
-		font-style: normal;
-		text-decoration: none;
-	}
-	#pinID:before {
+<!-- /*	#pinID:before {
 		width: 0; 
 		height: 0; 
 		border-top: 10px solid transparent;
 		border-bottom: 10px solid transparent; 
 		
 		border-right:10px solid black;
+	}
+	#pinID img {
+	    position: absolute;
+	    //clip: rect(0px,100px,100px,40px);
 	}
 	.rating {
 	  unicode-bidi: bidi-override;
@@ -31,32 +20,116 @@
 	  width: 1.1em;
 	}
 	.rating > span:hover:before,
-	.r----ating > span:hover ~ span:before {
+	.rating > span:hover ~ span:before {
 	   content: "\2605";
 	   position: absolute;
+	}*/ -->
+<style>
+	#pinID {
+		width: 180px;
+		height: 50px;
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 3px;
+		margin: 0 0 0 15px;
+		background-color: #fff0d1;
+		color: black;
+		font-family: sans-serif;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 18px;
+		text-decoration: none;
 	}
+
 	.on {
 		display: inline;
 	}
 	.off {
 		display: none;
 	}
+	img {
+		position: absolute;
+		top: 13px;
+		left: 28px;
+		height: 45;
+		width: 30;
+		clip: rect(0px,40px,30px,0px);
+	}
+	#stars {
+		position: absolute;
+		top: 30px;
+		left: 8px;
+	}
+	img.star {
+		position: relative;
+		display: inline;
+		height: 10px;
+		width: 10px;
+		margin-left: 2spx;
+	}
+	#name {
+		position: absolute;
+		top: 13px;
+		left: 70px;
+		font-size: 
+		text-size: bold;
+	}
+	#activity {
+		position: absolute;
+		top: 13px;
+		left: 140px;
+	}
+	button {
+		position: absolute;
+		top: 40px;
+		left: 160px;
+	}
+	
 </style>
 <div id="pinID">
-	<img src="images/paris.">
-	<div class="rating">
-		<span>☆</span><span>☆</span><span>☆</span><span>☆</span><!-- <span>☆</span> -->
+	<img src="images/joe.jpeg" alt="Paris">
+	<div id="name">Stephan</div>
+	<div id="stars"> <!-- rating -->
+		<img class="star" src="images/star.jpeg">
+		<img class="star" src="images/star.jpeg">
+		<img class="star" src="images/star.jpeg">
+		<img class="star" src="images/star.jpeg">
+		<img class="star" src="images/star.jpeg"> <!--<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> -->
 	</div>
-	<div class="activity">
-		<span id="pinActivity">HELP!</span>
-	</div>
-	<div>
-		<a class="btn btn-sm btn-success" href="#">
-		  <i class="fa fa-1x pull-left"></i> <span class="on">Send</span><span class="off">Accept</span></a>
-	</div>
+	<div id="activity">Dancing</div>
+	<button id="button" type="button" class="btn btn-success on">Send</button>
+	<button id="button" type="button" class="btn btn-success off">Accept</button>
 
 </div>
-<script>
-	var data = localStorage.getItem("pinData");
-	data = JSON.unstringify(data); 
-</script>
+<!-- <script>
+var sampleData1 = { name: "Christian", age:"40", activity:"Food", time:"1hr", rating:4 };
+var sampleData2 = { name: "Mary", age:"30", activity:"Sightseeing", time:"2hr", rating:5 };
+var sampleData3 = { name: "Paris", age:"22", activity:"HELP", time:"30min", rating:3 };
+var sampleData4 = { name: "Stephan", age:"34", activity:"Entertainment", time:"5hr", rating:5 };
+
+
+	function putLocalData(dataObject) {
+		var dataString = JSON.stringify( dataObject );
+		localStorage.setItem("pinData", dataString );
+	}
+
+	function getLocalData() {
+		return JSON.parse( localStorage.getItem("pinData") );
+	}
+
+putLocalData(sampleData);
+var showData = getLocalData();
+
+var pinName = showData.name;
+var pinAge = showData.age;
+var pinActivity = showData.activity;
+var pinTime = showData.time;
+var pinRating = showData.rating;
+
+var pinImage = document.getElementByTagName("img");
+var pinStars = document.getElementsByClassName("rating");
+var pinImage = document.getElementByTagName("img");
+var pinImage = document.getElementByTagName("img");
+
+
+</script> -->

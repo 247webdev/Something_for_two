@@ -6,7 +6,7 @@
 		border: 1px solid black;
 		padding: 3px;
 		margin: 0 0 0 15px;
-		background-color: #fff0d1;
+		background-color: #E0E0D1;
 		color: black;
 		font-family: sans-serif;
 		font-weight: normal;
@@ -25,52 +25,58 @@
 		position: absolute;
 		top: 13px;
 		left: 28px;
-		height: 45;
-		width: 30;
-		clip: rect(0px,40px,30px,0px);
+		height: 48;
+		width: 34;
+		clip: rect(0px,40px,50px,0px);
+		border-radius: 6px;
 	}
 	#stars {
 		position: absolute;
-		top: 30px;
-		left: 8px;
+		top: 2px;
+		left: 120px;
+		//top: 30px;
+		//left: 43px;
+		float: right;
 	}
 	img.star {
 		position: relative;
 		display: inline;
 		height: 10px;
 		width: 10px;
-		margin-left: 2spx;
+		margin-left: -3px;
+		box-shadow: 2px 2px 1px;
 	}
 	#name {
 		position: absolute;
-		top: 13px;
-		left: 70px;
+		top: 15px;
+		left: 65px;
 		font-size: 
 		text-size: bold;
 	}
 	#activity {
 		position: absolute;
-		top: 13px;
-		left: 140px;
+		top: 42px;
+		left: 65px;
+		//top: 13px;
+		//left: 140px;
 	}
 	button {
 		position: absolute;
-		top: 40px;
-		left: 160px;
+		top: 43px;
+		left: 164px;
 	}
 	
 </style>
-<div id="pinID">
-	<img src="images/paris.jpeg" alt="Paris">
-	<div id="name">Paris</div>
-	<div id="stars"> <!-- rating -->
-		<img class="star" src="images/star.jpeg">
-		<img class="star" src="images/star.jpeg">
-		<img class="star" src="images/star.jpeg">
-		<img class="star" src="images/star.jpeg"> <!--<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> -->
+<div id='pinID'>
+	<img src='images/paris.jpeg' alt='Paris'>
+	<div id='name'>Paris</div>
+	<div id='stars'> <!-- rating -->
+		<img class='star' src='images/star.jpeg'>
+		<img class='star' src='images/star.jpeg'>
+		<img class='star' src='images/star.jpeg'>
+		<img class='star' src='images/star.jpeg'> <!--<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> -->
 	</div>
-	<div id="activity">HELP!</div>
-	<button id="button" type="button" class="btn btn-success on">Send</button>
-	<button id="button" type="button" class="btn btn-success off">Accept</button>
+	<div id='activity'>HELP!</div>
+	<button id='button' type='button' class='btn btn-success on'>Send</button>
 
 </div>
