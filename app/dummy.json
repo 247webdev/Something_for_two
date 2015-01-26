@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39403605461119,
+          37.60364975693579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38836050033571,
+          37.60330125904333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39305973052977,
+          37.60174574854437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38696575164795,
+          37.60033471088804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38735198974608,
+          37.619466442329205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37228870391846,
+          37.59896614880101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41464614868164,
+          37.65175228874552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40829467773436,
+          37.655965406224006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41052627563477,
+          37.6539268308419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40880966186523,
+          37.65216002023906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41567611694337,
+          37.62728430268013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "This is a <a href='#'>link</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41825103759764,
+          37.60403225274333
+        ]
+      }
+    }
+  ]
+}
